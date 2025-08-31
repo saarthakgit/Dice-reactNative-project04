@@ -11,6 +11,12 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		008E612260BE4B6997EC4E34 /* Jacquard12Charted-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC8C39137E3E4958A9157094 /* Jacquard12Charted-Regular.ttf */; };
+		AE09BFC3AA934EBD80E664A5 /* PixelifySans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD98BDB48AF54C6EAC373ED9 /* PixelifySans-Bold.ttf */; };
+		46111851F4074D2AB656CCB5 /* PixelifySans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1075C8C629974CCD99D0BB25 /* PixelifySans-Medium.ttf */; };
+		259BBD2C96EE440EAF042042 /* PixelifySans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3853D1D444F8474A90A0DCE0 /* PixelifySans-Regular.ttf */; };
+		97C9DEBFEDAA4707B2AA0E55 /* PixelifySans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8D9ADEAC04724F359755F941 /* PixelifySans-SemiBold.ttf */; };
+		6C02BC95660E44E592DD29A4 /* Tiny5Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5CC60BE4D1F64F7A8B6A62FD /* Tiny5Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Dice/AppDelegate.swift; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Dice/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		AC8C39137E3E4958A9157094 /* Jacquard12Charted-Regular.ttf */ = {isa = PBXFileReference; name = "Jacquard12Charted-Regular.ttf"; path = "../assets/fonts/Jacquard12Charted-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BD98BDB48AF54C6EAC373ED9 /* PixelifySans-Bold.ttf */ = {isa = PBXFileReference; name = "PixelifySans-Bold.ttf"; path = "../assets/fonts/PixelifySans-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1075C8C629974CCD99D0BB25 /* PixelifySans-Medium.ttf */ = {isa = PBXFileReference; name = "PixelifySans-Medium.ttf"; path = "../assets/fonts/PixelifySans-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3853D1D444F8474A90A0DCE0 /* PixelifySans-Regular.ttf */ = {isa = PBXFileReference; name = "PixelifySans-Regular.ttf"; path = "../assets/fonts/PixelifySans-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8D9ADEAC04724F359755F941 /* PixelifySans-SemiBold.ttf */ = {isa = PBXFileReference; name = "PixelifySans-SemiBold.ttf"; path = "../assets/fonts/PixelifySans-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5CC60BE4D1F64F7A8B6A62FD /* Tiny5Regular.ttf */ = {isa = PBXFileReference; name = "Tiny5Regular.ttf"; path = "../assets/fonts/Tiny5Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +86,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				398BF9C6E2F9488D866B2A07 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -96,6 +109,20 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		398BF9C6E2F9488D866B2A07 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				AC8C39137E3E4958A9157094 /* Jacquard12Charted-Regular.ttf */,
+				BD98BDB48AF54C6EAC373ED9 /* PixelifySans-Bold.ttf */,
+				1075C8C629974CCD99D0BB25 /* PixelifySans-Medium.ttf */,
+				3853D1D444F8474A90A0DCE0 /* PixelifySans-Regular.ttf */,
+				8D9ADEAC04724F359755F941 /* PixelifySans-SemiBold.ttf */,
+				5CC60BE4D1F64F7A8B6A62FD /* Tiny5Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -159,6 +186,12 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				008E612260BE4B6997EC4E34 /* Jacquard12Charted-Regular.ttf in Resources */,
+				AE09BFC3AA934EBD80E664A5 /* PixelifySans-Bold.ttf in Resources */,
+				46111851F4074D2AB656CCB5 /* PixelifySans-Medium.ttf in Resources */,
+				259BBD2C96EE440EAF042042 /* PixelifySans-Regular.ttf in Resources */,
+				97C9DEBFEDAA4707B2AA0E55 /* PixelifySans-SemiBold.ttf in Resources */,
+				6C02BC95660E44E592DD29A4 /* Tiny5Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
