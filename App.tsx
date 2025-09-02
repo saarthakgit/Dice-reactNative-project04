@@ -1,4 +1,4 @@
-import { StyleSheet, Text, TouchableOpacity, View , Image} from 'react-native'
+import { StyleSheet, Text, TouchableOpacity, View , Image , Vibration} from 'react-native'
 import React , {useState} from 'react'
 import ReactNativeHapticFeedback from "react-native-haptic-feedback";
 
@@ -8,6 +8,7 @@ const options = {
 };
 
 const App = () => {
+  const ONE_SECOND_IN_MS = 1000;
   const [isPressed , setIsPressed] = useState(false)
   const[isLoggedin , setIsLoggedIn] = useState(0)
  // const vibration = ()=> ReactNativeHapticFeedback.trigger("impactLight");
@@ -51,16 +52,16 @@ const App = () => {
   return (
     <View style={styles.container}>
       {isLoggedin == 0 ? (
-        <TouchableOpacity onPress={()=>{ ReactNativeHapticFeedback.trigger("impactLight",options);setIsLoggedIn(1);}}>
+        <TouchableOpacity onPress={()=>{ Vibration.vibrate([0, 100, 1000]);ReactNativeHapticFeedback.trigger("impactLight",options);setIsLoggedIn(1);}}>
         <Image style={styles.dice} source={require('./assets/images/1.png')}/>
       </TouchableOpacity>
 
       ) : !isPressed && isLoggedin == 1 ? (
-                <TouchableOpacity onPress={()=>{ ReactNativeHapticFeedback.trigger("impactLight",options);setIsPressed(true);setIsLoggedIn(1)}}>
+                <TouchableOpacity onPress={()=>{ Vibration.vibrate([0, 100, 1000]);ReactNativeHapticFeedback.trigger("impactLight",options);setIsPressed(true);setIsLoggedIn(1);}}>
           <Image style={styles.dice} source={shuffle()}/>
         </TouchableOpacity>
       ) : isPressed && isLoggedin == 1 ? (
-                <TouchableOpacity onPress={()=>{ ReactNativeHapticFeedback.trigger("impactLight",options);setIsPressed(false);setIsLoggedIn(1)}}>
+                <TouchableOpacity onPress={()=>{ Vibration.vibrate([0, 100, 1000]);ReactNativeHapticFeedback.trigger("impactLight",options);setIsPressed(false);setIsLoggedIn(1);}}>
           <Image style={styles.dice} source={shuffle()}/>
         </TouchableOpacity>) : null
 
